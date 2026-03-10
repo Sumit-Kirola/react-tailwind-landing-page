@@ -1,16 +1,71 @@
-# React + Vite
+# React Tailwind Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **responsive landing page** built using **React.js** and **Tailwind CSS** as part of an internship assignment.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Responsive Navbar with logo and navigation links
+* Hero section with heading, description, and call-to-action button
+* Features section with multiple feature cards
+* Footer with copyright text
+* Mobile and desktop responsive design
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* Tailwind CSS
+* JavaScript
+* HTML
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+App.jsx
+main.jsx
+index.css
+Header.jsx
+HeroSection.jsx
+FeaturesSection.jsx
+Footer.jsx
+index.html
+```
+
+## Installation & Setup
+
+1. Clone the repository
+
+```
+git clone https://github.com/Sumit-Kirola/react-tailwind-landing-page.git
+```
+
+2. Go to the project folder
+
+```
+cd react-tailwind-landing-page
+```
+
+3. Install dependencies
+
+```
+npm install
+```
+
+4. Run the development server
+
+```
+npm run dev
+```
+
+Then open:
+
+```
+http://localhost:5173
+```
+
+## Objective
+
+The objective of this project is to practice building a **simple and responsive landing page using React components and Tailwind CSS** with clean code structure.
+
+## Author
+
+Created for Internship Assignment.
